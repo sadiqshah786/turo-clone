@@ -1,0 +1,24 @@
+.login_info button {
+    line-height: 25px;
+    padding: 0 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #414143;
+    color: #414143;
+    height: 27px;
+    margin: 0 12px;
+    font-size: 13px;
+    transition: .3s ease-in-out;
+}
+.login_info button.headerBtn:hover{
+    background-color: #E7E7E8;
+    border-color: #898989;
+    color: #898989;
+}
+
+
+@media screen and (max-width:600px) {
+    .login_info button{
+        display: none;
+    }
+    
+}
